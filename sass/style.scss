@@ -1,0 +1,47 @@
+@import './asterix';
+@import './navbar';
+@import './backgroundImage';
+@import './cta-btn';
+@import './aboutUs';
+@import './donuts_menu';
+@import './dish';
+@import './footer';
+@import './responsive';
+
+
+.class1 {
+    margin: 10px;
+    cursor: pointer;
+}
+
+.class2 {
+
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        input {
+            border: 2px solid black;
+            width: 300px;
+            cursor: pointer;
+        }
+
+        textarea {
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+        }
+    }
+
+}

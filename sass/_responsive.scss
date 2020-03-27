@@ -1,0 +1,86 @@
+@media only screen and (max-width: 600px) {
+
+    //Navigation Bar
+
+
+
+
+    .navigation_bar {
+
+        flex-direction: column;
+        display: none;
+
+
+        .logo a {
+            font-size: 15px;
+        }
+
+        ul {
+            flex-direction: column;
+        }
+    }
+
+
+    // Home page
+    //Background Image
+
+    .background-image {
+        height: 300px;
+    }
+
+    //CTA button
+    .cta-btn {
+        top: 70px;
+        font-size: 12px;
+
+        button {
+            padding: 8px 18px;
+            animation: none;
+        }
+    }
+
+    //Donuts Menu Dish
+    #dish {
+        img {
+            height: 250px;
+            width: 400px;
+        }
+
+        p {
+            width: 80%;
+        }
+    }
+
+    //About Us
+    .about_us {
+        .team {
+            flex-direction: column;
+
+        }
+    }
+
+    .parallax {
+        img {
+
+            height: 70px;
+        }
+    }
+}
+
+@media only screen and (min-width: 601px) {
+
+    .responsiveItem {
+        display: none;
+    }
+
+    .class1 {
+        display: none;
+    }
+
+    .class2 {
+        display: block;
+    }
+
+
+
+}
